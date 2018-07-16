@@ -1,0 +1,13 @@
+//需要导入包，下载地址：https://maven.java.net/content/repositories/releases/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar
+import com.sun.jna.Library;
+import com.sun.jna.Native;
+
+public class HelloJNA {
+    public interface CLibrary extends Library {
+        CLibrary a=(CLibrary)Native.loadLibrary("c",CLibrary.class);
+        void printf(String format,Object... b);
+    }
+    public static void main(String[] args){
+        CLibrary.a.printf("%d",1);
+    }
+}
