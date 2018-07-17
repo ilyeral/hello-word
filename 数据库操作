@@ -1,0 +1,9 @@
+创建utf-8表
+  CREATE TABLE 'author' (
+      'authorid' char(20) NOT NULL,
+      'name' char(20) NOT NULL,
+      'age' char(20) NOT NULL,
+      'country' char(20) NOT NULL
+  ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+设置数据库编码格式
+  CREATE DATABASE dbname DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
