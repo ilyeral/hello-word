@@ -17,3 +17,8 @@ sudo apt-get install openjdk-8-jdk  安装jdk
   sudo passwd root
 键盘无法连续键入
   echo "blacklist peaq_wmi" >> /etc/modprobe.d/50-blacklist.conf
+安装实时网速
+  sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
+  sudo apt-get update
+  sudo apt-get install indicator-sysmonitor
+
