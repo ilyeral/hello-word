@@ -21,4 +21,5 @@ sudo apt-get install openjdk-8-jdk  安装jdk
   sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor
   sudo apt-get update
   sudo apt-get install indicator-sysmonitor
-
+安装git
+  sudo apt-get install git git-core git-gui git-doc git-svn git-cvs gitweb gitk git-email git-el git-arch
