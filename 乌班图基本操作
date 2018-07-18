@@ -13,3 +13,7 @@ sudo apt-get install openjdk-8-jdk  安装jdk
   sudo apt-get install mysql-server
   apt-get isntall mysql-client
   sudo apt-get install libmysqlclient-dev
+获取root用户
+  sudo passwd root
+键盘无法连续键入
+  echo "blacklist peaq_wmi" >> /etc/modprobe.d/50-blacklist.conf
