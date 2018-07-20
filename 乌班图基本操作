@@ -23,3 +23,5 @@ sudo apt-get install openjdk-8-jdk  安装jdk
   sudo apt-get install indicator-sysmonitor
 安装git
   sudo apt-get install git git-core git-gui git-doc git-svn git-cvs gitweb gitk git-email git-el git-arch
+火狐中文
+  http://ftp.mozilla.org/pub/firefox/releases/版本号/linux-x86_64/xpi/
