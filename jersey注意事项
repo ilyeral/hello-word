@@ -1,0 +1,2 @@
+jersey 无法加载jdbc驱动
+  解决办法：把jdbc连接的jar包放在tomcat lib 目录下
