@@ -13,6 +13,19 @@ sudo apt-get install openjdk-8-jdk  安装jdk
   sudo apt-get install mysql-server
   apt-get isntall mysql-client
   sudo apt-get install libmysqlclient-dev
+卸载mysql并删除数据
+  sudo apt-get autoremove --purge mysql-server-5.X
+  sudo apt-get remove mysql-server
+  /var/lib/mysql  
+  /var/lib/mysql/mysql  
+  /var/log/mysql  
+  /usr/bin/mysql  
+  /usr/lib/mysql  
+  /usr/share/mysql  
+  /etc/mysql  
+  /etc/init.d/mysql
+  
+  sudo rm -rf /etc/init.d/mysql
 获取root用户
   sudo passwd root
 键盘无法连续键入
