@@ -1,0 +1,4 @@
+idea导出war包
+  File----Project Structure---Artifacts---Web Application：Archive  注意勾选啥啥build
+  下面加号添加目录选择web目录
+  运行下就有了
