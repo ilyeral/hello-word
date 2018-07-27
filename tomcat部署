@@ -1,0 +1,19 @@
+1.  将自己的项目打成war包（如：hello.war），可以使用开发工具也可以使用命令（自行查找资料）；
+2. 将项目war包拷贝到tomcat 的webapps目录下；
+3. 修改tomcat的安装目录下的conf\server.xml 文件，在该文件中的<Host></Host>节点中添加如下内容
+  <Context   path="/"   docBase="hello"  reloadable="true" privileged="true" debug="0" />
+  其中hello是war包的名称，
+4. 在tomcat的bin目录下找到startup.bat 运行启动即可，这时tomcat会自动将war包解压成同名文件夹
+5.修改Tomcat的server.xml（我的是在C:\apache\conf目录下）文件，原默认8080端口改为80
+    <Connector port="80" protocol="HTTP/1.1" 
+                   connectionTimeout="20000" 
+                   redirectPort="8443" />
+6.Engine节点中defaultHost原localhost改为申请到的域名。
+  <Engine name="Catalina" defaultHost="www.qianxueya.com">
+7.Host节点中name原localhost改为目标域名，并且在Host节点中添加如下的Context节点
+    <Host name="www.qianxueya.com"  appBase="webapps"
+                unpackWARs="true" autoDeploy="true"
+                xmlValidation="false" xmlNamespaceAware="false">
+           <Context path="" docBase="/qianxueya" debug="0" reloadable="true"></Context>
+    </Host>
+8.打开域名管理，添加网站解析，IP填入你云服务器的弹性公网IP即可。 
