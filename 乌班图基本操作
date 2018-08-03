@@ -1,4 +1,6 @@
 dpkg -i *.deb    安装deb包
+mkdir 文件夹名
+chmod -R 777 文件夹名
 sudo apt install -f    修复依赖
 sudo apt-get install openjdk-8-jdk  安装jdk
 
