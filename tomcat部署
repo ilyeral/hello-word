@@ -26,3 +26,11 @@ apt-get 安装
 ??? /var/lib/tomcat6/ - 工作主目录?
 /var/lib/tomcat6/webapps - （应用文件实际存放于此）?
 /var/lib/tomcat6/work - 动态工作目录（动态编译的 .jsp 存放于此）? 
+
+
+#启动
+service tomcat8 start
+#状态
+service tomcat8 status
+#停止
+service tomcat8 stop
