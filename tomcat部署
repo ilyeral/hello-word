@@ -17,3 +17,12 @@
            <Context path="" docBase="/qianxueya" debug="0" reloadable="true"></Context>
     </Host>
 8.打开域名管理，添加网站解析，IP填入你云服务器的弹性公网IP即可。 
+
+
+apt-get 安装
+/etc/tomcat6 - 全局配置?
+/usr/share/tomcat6/ - 程序主目录?
+/usr/share/tomcat6/conf/Catalina/localhost/ - 本机部署的 Catalina 配置?
+??? /var/lib/tomcat6/ - 工作主目录?
+/var/lib/tomcat6/webapps - （应用文件实际存放于此）?
+/var/lib/tomcat6/work - 动态工作目录（动态编译的 .jsp 存放于此）? 
