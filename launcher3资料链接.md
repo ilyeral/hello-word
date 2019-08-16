@@ -1,13 +1,12 @@
+请修改Launcher3/src/com/android/launcher3/Launcher.java的getOrCreateQsbBar()方法，直接returnnull。
 
 [多种参考](https://www.jianshu.com/p/ed4caadd98bd)
-
-请修改Launcher3/src/com/android/launcher3/Launcher.java的getOrCreateQsbBar()方法，直接returnnull。
 
 [allapp加载过程](https://www.xuebuyuan.com/1958022.html)
 
 [左屏](https://blog.csdn.net/cgt_cgt/article/details/76252543)
 
-[左屏](https://blog.csdn.net/se7en1305687887/article/details/46807347
+[左屏](https://blog.csdn.net/se7en1305687887/article/details/46807347)
 
 [重要](https://blog.csdn.net/wed110/article/details/97937272)
 
